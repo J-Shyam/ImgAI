@@ -31,17 +31,17 @@ function App() {
     <ThemeProvider theme={darkTheme}>
       <Container>
         <Wrapper>
+
           <BrowserRouter>
           <Navbar />
           <Routes>
+            
             <Route path="/" element={<Home/>} exact/>
             <Route path="/post" element={<CreatePost/>} exact/>
             
           </Routes>
           </BrowserRouter>
           
-          <Home/>
-          <CreatePost />
         </Wrapper>
       </Container>
     </ThemeProvider>
