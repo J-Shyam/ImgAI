@@ -12,6 +12,7 @@ body {
   margin: 0px !important;
   padding: 0;
   font-family: "Montserrat", sans-serif;
+  
 }
 
 /* width */
@@ -39,3 +40,5 @@ body {
 ::-webkit-backdrop-filter {
   blur: 3px saturate(106%);
 }
+
+
